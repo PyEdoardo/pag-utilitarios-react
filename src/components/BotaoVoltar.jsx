@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export const BotaoFechar = ({string, path}) => {
+export const BotaoFechar = ({string, path = '/'}) => {
 
     const navigate = useNavigate();
 

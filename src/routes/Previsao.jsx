@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getPrevisaoDoTempo } from "../hooks/ApiPrevisao";
 
-import BotaoFechar from "../components/BotaoVoltarHome";
+import BotaoFechar from "../components/BotaoVoltar";
 import DarkModeSwitch from "../components/DarkModeSwitch";
 import CidadeInput from "../components/CidadeInput";
 import CardTempo from "../components/CardTempo";
